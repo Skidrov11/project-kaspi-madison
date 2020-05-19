@@ -13,6 +13,29 @@ body {margin: 0px;}
 	height: 73px;
 }
 
+/* menu */
+.menu {
+	overflow: auto;
+}
+
+.menu_ul {
+	list-style-type: none;
+}
+
+.menu_li {
+	float: left;
+	margin-left: 25px;
+}
+
+.menu_a {
+	color: #F2F2F2;
+	text-decoration: none;
+}
+
+.menu_a:hover {
+	color: #E74635;
+}
+
 /* content */
 
 
