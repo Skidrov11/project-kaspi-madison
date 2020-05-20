@@ -1,11 +1,24 @@
 body {margin: 0px;}
 
+#logo {
+	width: 50px;
+	height: 50px;
+	background: url(data:image/webp;base64,UklGRowCAABXRUJQVlA4TIACAAAvJYAJEFeloG0jx/xJ/+gNCvM//wzbtg2bqyS3myK3bRv4ltEy38A5A8EWmHoCYCMhCAACAKEYwoit1DEUHcIAViT4316hQYCLfdcAzw2BDnlH7Rbc7BUJatoPWawAEiVJNm2rrm2bz9d4tm3btm3bftfs39wze5/3BxH9nwDCFy45cvN1T8/rm0eWFBLrhKV3xhRy7M7ShJjMfKPIb2ZFK7ihmN4siNDwUcG+l1H0sSFUW4+Ce1PZG0U97SFqexTcBZyIpJ5aJ+etzHxoGImmd7nWBZnDcXBXsbxgtMstpVGxbQfiHju/k8n/GurX+pV/jSdxMFf2UCtQ8ynEt3o4KfUvOqJ5cMVZSXDCmLcAsn5Kq5mqy2QMWqPpBqecvkRYL91MYLMGM2bLfoXd7AymkvFXp9JoHJbm7HFuO3GfLbVSfGM+FH+StOeqc85hq/U7n2DGU0m68sI54OXdlzR+sZJg/BUFX3x31npQ1d5SiL1Z5o8RZ0qYsNUj1shv6198iKqaeG+57C/vrYf4h6R/2xKsJc6zK9Ytb7KCp60ZzpWt1ktvlaFpRqWzqcsay3T2WtuNuB9WU0qvoQ7nhHXVYJ/Rk8gRa41z0fpgdRoHYZK127lkjSUbSb8ljdcCF41j0LkKuGypDlonwhZJZwBK/gROw65nwEVnOtz7W0ZRnwbqAywMXIRrIwlw3lkBH3US1mkF9nlJR+G+yuGsswPea6yC5G1xTu49aR08VxOcck7DHWkrodOuaj480kw45DyAw9KzcCSdqIHrWgg7nbewUtofgTjgsBbDWucrlP9eFhcluFyzoNv5BMQR0+yN+ZD83Rhdxn9uOHh8z4bZpUQE) no-repeat;
+	margin-top: 15px;
+	float: left;
+}
+
 /* container */
 .container {
 	max-width: 962px;
 	min-width: 320px;
 	display: flex;
 	justify-content: center;
+}
+
+/* wrapper */
+.wrapper {
+	overflow: auto;
 }
 
 /* header */
@@ -44,6 +57,43 @@ body {margin: 0px;}
 .subtitle {
 
 }
+/* search */
+.wrapper_search {
+	height: 70px;
+	display: inline;
+	overflow: auto;
+}
+
+.shop_button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #F5F5F5;
+	width: 100px;
+	height: 35px;
+	float: left;
+	margin-top: 20px;
+	border: solid #E5E5E5 1px;
+}
+
+.shop_button_a {
+	color: black;
+	text-decoration: none;
+}
+
+.search {
+	display: inline-block;
+	margin-top: 20px;
+	float: left;
+}
+
+.search_button {
+	background-color: #0089D0;
+	width: 45px;
+	height: 37px;
+	margin-top: 20px;
+	display: flex;
+}
 
 /* content */
 .content {
@@ -59,14 +109,9 @@ body {margin: 0px;}
 	height: 100px;
 }
 
-.b1 {
-	background-color: red;
-	width: 100%;
-	height: 50px;
-}
-
-.b2 {
-	background-color: orange;
-	width: 100%;
-	height: 200px;
+input {
+	width: 645px;
+	height: 33px;
+	border: solid #E5E5E5 1px;
+	border-left: 0px;
 }
