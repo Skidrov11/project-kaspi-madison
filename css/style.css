@@ -38,7 +38,7 @@ body {margin: 0px;}
 	list-style-type: none;
 }
 
-.menu_li {
+.menu_li{
 	font-size: 17px;
 	float: left;
 	margin-right: 25px;
@@ -52,6 +52,17 @@ body {margin: 0px;}
 .menu_a:hover {
 	color: #E74635;
 }
+
+.active {
+	font-size: 17px;
+	float: left;
+	margin-right: 25px;
+ }
+
+ .active_a {
+ 	color: #E74635;
+ 	text-decoration: none;
+ }
 
 /*===================================================*/
 
