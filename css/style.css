@@ -115,15 +115,23 @@ body {margin: 0px;}
 	border-top: solid #E5E5E5 1px;
 }
 
-.subtitle_menu_button1 {border-left: solid #E5E5E5 1px;	height: 65px;float: left; font-size: 14px; padding: 0px 10px; display: flex; align-items: center;}
-.subtitle_menu_button2 {border-left: solid #E5E5E5 1px;	height: 65px;float: left; font-size: 14px; padding: 0px 10px; display: flex; align-items: center;}
-.subtitle_menu_button3 {border-left: solid #E5E5E5 1px;	height: 65px;float: left; font-size: 14px; padding: 0px 10px; display: flex; align-items: center;}
-.subtitle_menu_button4 {border-left: solid #E5E5E5 1px;	height: 65px;float: left; font-size: 14px; padding: 0px 10px; display: flex; align-items: center;}
-.subtitle_menu_button5 {border-left: solid #E5E5E5 1px;	height: 65px;float: left; font-size: 14px; padding: 0px 10px; display: flex; align-items: center;}
-.subtitle_menu_button6 {border-left: solid #E5E5E5 1px;	height: 65px;float: left; font-size: 14px; padding: 0px 10px; display: flex; align-items: center;}
-.subtitle_menu_button7 {border-left: solid #E5E5E5 1px;	height: 65px;float: left; font-size: 14px; padding: 0px 10px; display: flex; align-items: center;}
-.subtitle_menu_button8 {border-left: solid #E5E5E5 1px;	height: 65px;float: left; font-size: 14px; padding: 0px 10px; display: flex; align-items: center;}
-.subtitle_menu_button9 {border-left: solid #E5E5E5 1px;border-right: solid #E5E5E5 1px;	height: 65px;float: left; font-size: 14px; padding: 0px 10px; display: flex; align-items: center;}
+.subtitle_menu_button1,.subtitle_menu_button2,.subtitle_menu_button3,.subtitle_menu_button4,.subtitle_menu_button5,.subtitle_menu_button6,.subtitle_menu_button7,.subtitle_menu_button8 {
+	border-left: solid #E5E5E5 1px;
+	height: 65px;float: left; 
+	font-size: 14px; padding: 0px 10px;
+	display: flex;
+	align-items: center;
+}
+
+.subtitle_menu_button9 {
+	border-left: solid #E5E5E5 1px;
+	border-right: solid #E5E5E5 1px;	
+	height: 65px;float: left; 
+	font-size: 14px;
+	padding: 0px 10px; 
+	display: flex;
+	 align-items: center;
+}
 
 .subtitle_menu_a {
 	text-decoration: none;
